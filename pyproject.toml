@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vision-llm"
+version = "1.0.0"
+description = "A single ComfyUI node that sends an image + text prompt to an OpenAI-compatible vision LLM and returns text. API keys stay server-side."
+authors = [{name = "yurishk"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = []
+classifiers = ["Operating System :: OS Independent"]
+
+[project.urls]
+Repository = "https://github.com/yurishk/ComfyUI-VisionLLM"
+"Bug Tracker" = "https://github.com/yurishk/ComfyUI-VisionLLM/issues"
+
+[tool.comfy]
+PublisherId = "yurishk"
+DisplayName = "Vision LLM"
